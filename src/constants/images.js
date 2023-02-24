@@ -23,7 +23,7 @@ import work_img_3 from "../assets/images/work_img_3.png";
 import work_img_4 from "../assets/images/work_img_4.png";
 import work_img_5 from "../assets/images/work_img_5.png";
 import work_img_6 from "../assets/images/work_img_6.png";
-import About_Alex from "../assets/images/About_Alex.jpg";
+import About_Alex from "../assets/images/skyline_pty.jpg";
 import subscribe_background from "../assets/images/subscribe_background.jpeg";
 
 const images = {
