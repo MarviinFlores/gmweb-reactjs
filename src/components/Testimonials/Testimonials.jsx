@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import {logos} from "../../constants/data";
 
 const Testimonials = () => {
-	var setting = {
+	var settings= {
 		dots: true,
 		infinite : true,
 		autoplay : true,
@@ -17,6 +17,8 @@ const Testimonials = () => {
 		arrows : false
 	};
 
+	console.log(testimonials);
+	
 	return (
 
 	<div className = 'testimonials section-p'>
@@ -30,17 +32,31 @@ const Testimonials = () => {
 				{
 					testimonials.map((testimonial, index) => {
 					return (
-						<div className = 'testimonials-item text-center text-white' key = {index}>
+						<div  className = 'testimonials-item text-center text-white' key = {index}>
 						<p className = 'text mx-auto'> {testimonial.paragraph}</p>
+						<div className = 'testimonials-item-text'>
 							<span  className = 'fs-22'>{testimonial.name}</span>
-	 						<small>{testmonial.post}</small>
+	 						<small>{testimonial.post}</small>
 						</div>
-			</div>
-					)
-					})
-				}
-			  </Slider>	
-			</div>
+					</div>
+							)
+						})
+					}
+				  </Slider>
+				</div>
+				<div className = 'logos-list grid'>
+					{
+						logos.map((logo, index) => {
+							return (
+								<div className = 'logos-item' key = {index}>
+								<img src = {logo.image} alt = "" className = 'mx-auto'/>
+								</div>							
+							)
+						
+						})
+					}
+				</div>
+
 		</div>
 		</div>
 	</div>	
