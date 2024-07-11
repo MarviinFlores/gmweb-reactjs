@@ -7,7 +7,8 @@ import Work from './components/Work/Work.jsx'
 import  Newsletter from  './components/Newsletter/Newsletter.jsx';
 import About from './components/About/About.jsx';
 import Testimonials from './components/Testimonials/Testimonials.jsx';
-
+import  Contact from './components/Contact/Contact.jsx'
+import Footer from './components/Footer/Footer.jsx'
 
 function App() {
   return (
@@ -15,9 +16,10 @@ function App() {
         <Header />
 	<Services />
 	<Work /> 
-	<Newsletter />  
 	<About />  
 	<Testimonials />  
+	<Contact />  
+	<Footer />  
     </div>
   );
 }

@@ -71,7 +71,7 @@
 	}
 	.navbar-nav{
 		display : flex;
-		align-items: center;
+			align-items: center;
 		justify-content : flex-end;
 	}
 	.nav-item {

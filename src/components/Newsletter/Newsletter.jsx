@@ -12,7 +12,7 @@ const Newsletter = () => {
 		setFormData((prevData) => ({
 		...prevData,
 		[e.target.id]: e.target.value
-		}))
+							}))
 		
 	}
 

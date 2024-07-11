@@ -22,7 +22,7 @@ const About = () => {
 			<div className = 'about-grid grid'>
 				<img src = {images.About_Alex} alt ="" clasName = 'about-img mx-auto'/>
 				<div className = 'section-title'>
-					<h3 className = 'text-brown'>GM< span clasName = 'text-dark'>Transfer</span></h3>
+					<h3 className = 'text-brown'>GM< span className = 'text-dark'>Transfer</span></h3>
 				<p className = 'text mx-auto'>Todos los camino conducen a una sola direccion , por ende si no llevas la guia adecuada no podras disfrutarlo</p>
 				</div>
 			</div>
@@ -49,14 +49,16 @@ const About = () => {
 			</div>
 			<div className = 'about-grid grid'>
 				<div className = 'section-title'>
-				<h3 className = 'text-brown'>Video<span className = 'text-dark'>Costa Pacifi					ca</span></h3>
-				<p className = 'text mx-auto'>lorem ipsum dolor sit amert cosnectetur asdidicisap elit. est molestias maxime tenetur ,temporibus aspernatur, omsnis expedita saepe sapiente adpisci laborasoma necesrtibus ulla, evenient asperioresm nostrumss</p>				
+				<h3 className = 'text-brown'>Quienes<span className = 'text-dark'>Somos</span></h3>
+				<p className = 'text mx-auto'>lorem ipsum dolor sit amert cosnectetur asdidicisap elit. est 
+	                       	molestias maxime tenetur ,temporibus aspernatur, omsnis expedita saepe sapiente adpisci
+		                laborasoma necesrtibus ulla, evenient asperioresm nostrumss</p>				
 			</div>
 			<div className ='about-video'>
 				<video className = 'about-video' autoPlay loop ref = {vidRef}>
 				<source src = {video} type = "video/mp4"/>
 				</video>
-				<button type = "button" className = 'vidPlayBtn flex felx-c' onClick= {playVideo}>
+				<button type = "button" className = 'vidPlayBtn flex flex-c' onClick= {playVideo}>
 				<FaPlay className = 'text-brown' size = {28}/>
 				</button>
 

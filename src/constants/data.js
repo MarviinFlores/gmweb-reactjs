@@ -3,32 +3,32 @@ import images from "./images";
 const services = [
     {
         image: `${images.services_img_1}`,
-        title: "Web Design",
+        title: "Shuttle",
         paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
     },
     {
         image: `${images.services_img_2}`,
-        title: "Branding",
+        title: "City Tours",
         paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
     },
     {
         image: `${images.services_img_3}`,
-        title: "UX Design",
+        title: "Shopping Tour",
         paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
     },
     {
         image: `${images.services_img_4}`,
-        title: "Logo Create",
+        title: "Day Tours",
         paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
     },
     {
         image: `${images.services_img_5}`,
-        title: "Illustration",
+        title: "Birding Tours",
         paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
     },
     {
         image: `${images.services_img_6}`,
-        title: "Graphics",
+        title: "San Blas Tour",
         paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
     },
 ];
@@ -76,23 +76,23 @@ const work_process = [
 const about_stats = [
     {
         image: `${images.stat_img_1}`,
-        value: "1575",
-        title: "Clients"
+        value: "600+",
+        title: "Clientes"
     },
     {
         image: `${images.stat_img_2}`,
-        value: "2416",
-        title: "Projects"
+        value: "150",
+        title: "Toures"
     },
     {
         image: `${images.stat_img_3}`,
-        value: "4287",
-        title: "Working Hours"
+        value: "1287",
+        title: "Horas de Servicio"
     },
     {
         image: `${images.stat_img_4}`,
-        value: "287",
-        title: "Awards"
+        value: "100%",
+        title: "Puntualidad"
     },
 ];
 
