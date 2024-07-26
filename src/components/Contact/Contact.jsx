@@ -23,7 +23,7 @@ const Contact = () => {
 	}	
 
 	return (
-		<div className = 'contact section-p'>
+		<div className = 'contact section-p' id ="contact">
 		 <div className = 'container'>
 			<div className = 'contact-section'>
 			< div className = 'section-title'>
@@ -46,7 +46,8 @@ const Contact = () => {
 					<textarea rows = "2" value = {formData.message} className = "form-control" placeholder = 'Mensaje' onChange= {handleChange} id 	= "message">
 					</textarea>
 				</div>
-				<button type = "submit" className= 'bg-brown text-white submit-btn fw-3 fs-22'>Cotizar</button>	
+				<button  onClick ="window.location.href='https://api.whatsapp.com/send?phone=50767724013&text=Gracias%20por%20contactarnos%2C%20digame%20como%20podemos%20ayudarlo'" target ="_blank" type = "submit" className= 'bg-brown text-white submit-btn fw-3 fs-22'>Cotizar</button>	
+		
 
 			</form>
 		</div>

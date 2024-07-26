@@ -1,3 +1,4 @@
+
 .about .section-title{
 	padding-top :20px;
 	margin-top : 15px;
@@ -39,7 +40,7 @@
 .about-video video {
 	width : 100%;
 }
-.vidPlayBtn {
+.vidplaybtn {
 	position : absolute;
 	left : 50%;
 	top :50%;

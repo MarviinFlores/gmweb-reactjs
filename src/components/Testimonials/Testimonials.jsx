@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Testimonials.css";
-import { testimonials} from '../../constants/data.js';
+import {testimonials} from '../../constants/data.js';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -21,7 +21,7 @@ const Testimonials = () => {
 	
 	return (
 
-	<div className = 'testimonials section-p'>
+	<div className = 'testimonials section-p' id ="testimonials">
 		<div className = 'container'>
 	 		<div className = 'testimonials-content'>
 				<div className = 'section-title'>
