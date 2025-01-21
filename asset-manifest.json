@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/gmweb-reactjs/static/css/main.ffa49cfd.css",
+    "main.js": "/gmweb-reactjs/static/js/main.45bf1b80.js",
+    "static/media/video.mp4": "/gmweb-reactjs/static/media/video.ee0d8e9d78efcdfea20d.mp4",
+    "static/media/header_background.png": "/gmweb-reactjs/static/media/header_background.a4b0cdcbd3bff09e6979.png",
+    "static/media/work_img_1.png": "/gmweb-reactjs/static/media/work_img_1.091beb43258b5fa39926.png",
+    "static/media/work_img_2.png": "/gmweb-reactjs/static/media/work_img_2.d3ffaa084fd34a47df48.png",
+    "static/media/work_img_5.png": "/gmweb-reactjs/static/media/work_img_5.2217ca652bffe319b9e7.png",
+    "static/media/work_img_4.png": "/gmweb-reactjs/static/media/work_img_4.869f2833659a006fbe2a.png",
+    "static/media/work_img_3.png": "/gmweb-reactjs/static/media/work_img_3.0cc315e3c525c4762cfa.png",
+    "static/media/work_img_6.png": "/gmweb-reactjs/static/media/work_img_6.bfe8b0aea90c3539dce1.png",
+    "static/media/skyline_pty.jpg": "/gmweb-reactjs/static/media/skyline_pty.50ae9cc07e34ccf69668.jpg",
+    "static/media/background1.jpg": "/gmweb-reactjs/static/media/background1.2caff9edffa4c05de52e.jpg",
+    "static/media/testimonials_background.jpeg": "/gmweb-reactjs/static/media/testimonials_background.d276a4a9669fe5463324.jpeg",
+    "static/media/subscribe_background.jpeg": "/gmweb-reactjs/static/media/subscribe_background.9055a9d94386e2c448c7.jpeg",
+    "static/media/logo_img_1.png": "/gmweb-reactjs/static/media/logo_img_1.56e6302690f664182a9d.png",
+    "static/media/logo_img_6.png": "/gmweb-reactjs/static/media/logo_img_6.9cb6e0ebf3aadac556f6.png",
+    "static/media/services_img_6.svg": "/gmweb-reactjs/static/media/services_img_6.6114580d206c5fedc91d05fa7e838fc8.svg",
+    "static/media/services_img_2.svg": "/gmweb-reactjs/static/media/services_img_2.77323cdd1232f84c4e08dafc17b131d9.svg",
+    "static/media/services_img_4.svg": "/gmweb-reactjs/static/media/services_img_4.b4abde74c4fb039178406be2e62bac06.svg",
+    "static/media/services_img_3.svg": "/gmweb-reactjs/static/media/services_img_3.a644c5496593d8982d64e926bcc4ce70.svg",
+    "static/media/slick.svg": "/gmweb-reactjs/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/gmweb-reactjs/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/gmweb-reactjs/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/services_img_1.svg": "/gmweb-reactjs/static/media/services_img_1.fb693df9b9095314ea5e1da79a73aa0c.svg",
+    "static/media/services_img_5.svg": "/gmweb-reactjs/static/media/services_img_5.6b2b8a7723a378c3babcf052d451e91a.svg",
+    "static/media/slick.woff": "/gmweb-reactjs/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/gmweb-reactjs/index.html",
+    "main.ffa49cfd.css.map": "/gmweb-reactjs/static/css/main.ffa49cfd.css.map",
+    "main.45bf1b80.js.map": "/gmweb-reactjs/static/js/main.45bf1b80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffa49cfd.css",
+    "static/js/main.45bf1b80.js"
+  ]
+}
