@@ -23,7 +23,7 @@ const About = () => {
 				<img src = {images.About_Alex} alt ="" className = 'about-img mx-auto'/>
 				<div className = 'section-title'>
 					<h3 className = 'text-brown'>GM< span className = 'text-dark'>Transfer</span></h3>
-				<p className = 'text mx-auto'>Todos los camino conducen a una sola direccion , por ende si no llevas la guia adecuada no podras disfrutarlo</p>
+				<p className = 'text mx-auto'>Our mission is to offer a seamless and gentle journey through the enchanting landscapes of Panama.</p>
 				</div>
 			</div>
 			<div className= 'about-grid grid'>
@@ -49,10 +49,10 @@ const About = () => {
 			</div>
 		<div className = 'about-grid grid'>
 				<div className = 'section-title'>
-				<h3 className = 'text-brown'>Quienes<span className = 'text-dark'>Somos</span></h3>
-				<p className = 'text mx-auto'>lorem ipsum dolor sit amert cosnectetur asdidicisap elit. est 
-	                       	molestias maxime tenetur ,temporibus aspernatur, omsnis expedita saepe sapiente adpisci
-		                laborasoma necesrtibus ulla, evenient asperioresm nostrumss</p>				
+				<h3 className = 'text-brown'>How<span className = 'text-dark'>We Are</span></h3>
+				<p className = 'text mx-auto'>GM Transfer Service is a premier tourism transportation service operated by a dedicated group of professionals based in Panama, Central America. Founded in 2018, we have established ourselves as a reliable and trustworthy choice for all your travel needs in the region.
+
+		Our team is committed to providing exceptional service, ensuring that every journey with us is safe, comfortable, and enjoyable. Whether you are a tourist exploring the beautiful landscapes of Panama or a local looking for reliable transportation options, GM Transfer Service is here to cater to all your transportation needs.</p>				
 			</div>
 			<div className ='about-video'>
 				<video className = 'about-video' autoPlay loop ref = {vidRef}>

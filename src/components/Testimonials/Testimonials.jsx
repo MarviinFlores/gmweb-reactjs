@@ -25,7 +25,7 @@ const Testimonials = () => {
 		<div className = 'container'>
 	 		<div className = 'testimonials-content'>
 				<div className = 'section-title'>
-			<h3 className = 'text-brown'>Clientes<span className = 'text-white'>Testimonials</span></h3>
+			<h3 className = 'text-brown'>Testi<span className = 'text-white'>monials</span></h3>
 			</div>
 			<div className = 'testimonials-list'>	
 				<Slider {...settings}>
@@ -44,18 +44,19 @@ const Testimonials = () => {
 					}
 				  </Slider>
 				</div>
-				<div className = 'logos-list grid'>
+		{/* HIDDEN IMAGES
+			 	<div className = 'logos-list grid'>
 					{
 						logos.map((logo, index) => {
 							return (
 								<div className = 'logos-item' key = {index}>
-								<img src = {logo.image} alt = "" className = 'mx-auto'/>
-								</div>							
+									<img src = {logo.image} alt = "" className = 'mx-auto'/>
+							</div>							
 							)
 						
 						})
 					}
-				</div>
+			</div> */}
 
 		</div>
 		</div>

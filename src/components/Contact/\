@@ -36,24 +36,21 @@ import emailjs from '@emailjs/browser';
 		   <div className = 'contact-section'>
 			<div className ='section-title'>
 			     <h3 className = 'text-brown'>contact<span className = 'text-dark'>me</span></h3>
-			<p className = 'text'>We offer the right Soluutions for your Panama trip.</p>
+			<p className = 'text'>I offer he right soluutions for your trip.</p>
 			</div>
 		   </div> 	
 			
 		   <form ref={form} className = 'contact-form mx-auto' onSubmit={sendEmail}>
 			<div className = 'form-elem'>
-			 <input type="text" className="form-control" placeholder='Name'  name="user_name" id ="name"/>
-		
+			 <input type="text" className="form-control" placeholder='Name' name="user_name" id ="name"/>
 			</div>
-				 <div className = 'form-elem'>   
-   		      <input type="email" className ="form-control" placeholder='E-mail'  name="user_email" id = "email" />
-				 </div>	
-		      <div className = 'form-elem'>	
-			     <textarea rows ="2" className = "form-control" placeholder ='Message' name="message" id = "message"/>
-		      </div>	
-			<div className = 'form-element'>
-			<button  type="submit" className ='bg-brown text-white submit-btn fw-3 fs-22'>Send</button>
-			</div>
+		{/*  <label>Name</label> */}
+		    
+		      <label>Email</label>
+		      <input type="email" name="user_email" />
+		      <label>Message</label>
+		      <textarea name="message" />
+		      <input type="submit" value="Send" />
 		    </form>
 		</div>
 	</div>		

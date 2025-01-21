@@ -22,22 +22,22 @@ const Navbar =() =>{
 	    			</button>
 	    			<ul className ='navbar-nav'>
 	    			  <li className ='nav-item'>
-	    			  	 <Link to href = "#"  className = 'nav-link text-white ls-1 text-uppercase fw-6 fs-22'>Inicio</Link>
+	    			  	 <Link to href = "#"  className = 'nav-link text-white ls-1 text-uppercase fw-6 fs-22'>Home</Link>
 	    			  </li>
 	    			  <li className ='nav-item'>
-	    				 <a href = "#services"  className = 'nav-link text-white ls-1 text-uppercase fw-6 fs-22'>Servicios</a>
+	    				 <a href = "#services"  className = 'nav-link text-white ls-1 text-uppercase fw-6 fs-22'>Services</a>
 	    			  </li>
 			          <li className ='nav-item'>
-	    			 	 <a href = "#work"  className = 'nav-link text-white ls-1 text-uppercase fw-6 fs-22'>Toures</a>
+	    			 	 <a href = "#work"  className = 'nav-link text-white ls-1 text-uppercase fw-6 fs-22'>Tours</a>
 	    			  </li>
 				  <li className ='nav-item'>
-	    				 <a  href= "#about"  className = 'nav-link text-white ls-1 text-uppercase fw-6 fs-22'>Nosotros</a>
+	    				 <a  href= "#about"  className = 'nav-link text-white ls-1 text-uppercase fw-6 fs-22'>About</a>
 	    			  </li>
 	    			  <li className ='nav-item'>
-	    			 	 <a href = "#testimonials"  className = 'nav-link text-white ls-1 text-uppercase fw-6 fs-22'>Testimonios</a>
+	    			 	 <a href = "#testimonials"  className = 'nav-link text-white ls-1 text-uppercase fw-6 fs-22'>Testimonials</a>
 	    			  </li>
 				  <li className ='nav-item'>
-	    			 	 <a href = "#contact"  className = 'nav-link text-white ls-1 text-uppercase fw-6 fs-22'>Contacto</a>
+	    			 	 <a href = "#contact"  className = 'nav-link text-white ls-1 text-uppercase fw-6 fs-22'>Contact</a>
 	    		          </li>
 	    			</ul>
 	    		</div>
