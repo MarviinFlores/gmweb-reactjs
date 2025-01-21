@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gmweb-reactjs/static/css/main.ffa49cfd.css",
-    "main.js": "/gmweb-reactjs/static/js/main.45bf1b80.js",
+    "main.css": "/gmweb-reactjs/static/css/main.0da0e405.css",
+    "main.js": "/gmweb-reactjs/static/js/main.e0f12f27.js",
     "static/media/video.mp4": "/gmweb-reactjs/static/media/video.ee0d8e9d78efcdfea20d.mp4",
     "static/media/header_background.png": "/gmweb-reactjs/static/media/header_background.a4b0cdcbd3bff09e6979.png",
     "static/media/work_img_1.png": "/gmweb-reactjs/static/media/work_img_1.091beb43258b5fa39926.png",
@@ -27,11 +27,11 @@
     "static/media/services_img_5.svg": "/gmweb-reactjs/static/media/services_img_5.6b2b8a7723a378c3babcf052d451e91a.svg",
     "static/media/slick.woff": "/gmweb-reactjs/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/gmweb-reactjs/index.html",
-    "main.ffa49cfd.css.map": "/gmweb-reactjs/static/css/main.ffa49cfd.css.map",
-    "main.45bf1b80.js.map": "/gmweb-reactjs/static/js/main.45bf1b80.js.map"
+    "main.0da0e405.css.map": "/gmweb-reactjs/static/css/main.0da0e405.css.map",
+    "main.e0f12f27.js.map": "/gmweb-reactjs/static/js/main.e0f12f27.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffa49cfd.css",
-    "static/js/main.45bf1b80.js"
+    "static/css/main.0da0e405.css",
+    "static/js/main.e0f12f27.js"
   ]
 }
