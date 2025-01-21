@@ -2,7 +2,7 @@
   "name": "gmsite",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http:/MarviinFlores.github.io/gmweb-reactjs",
+  "homepage": "http:/MarviinFlores.github.io/gmweb-reactjs",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/jest-dom": "^5.16.5",
@@ -20,7 +20,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
