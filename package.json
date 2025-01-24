@@ -2,7 +2,7 @@
   "name": "gmsite",
   "version": "0.1.0",
   "private": true,
-  "website":"http://marviinflores.github.io/gmweb-reactjs",
+  "website":"http://marviinflores.github.io/gmweb-reactjs/",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/jest-dom": "^5.16.5",
