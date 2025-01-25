@@ -6,10 +6,10 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-//  <HashRouter>
-    <HashRouter>
+  <HashRouter>
+    <Routes>
       <Route path = "/" element = {<App />} ></Route>
-    </HashRouter>
-  //</HashRouter>
+    </Routes>
+  </HashRouter>
 );
 
