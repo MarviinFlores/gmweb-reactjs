@@ -33,7 +33,7 @@ import emailjs from '@emailjs/browser';
 	return (
 	<div className = 'contact section-p'>
 		<div className = 'container'>		
-		   <div className = 'contact-section'>
+		   <div className = 'contact-section' id ="contact">
 			<div className ='section-title'>
 			     <h3 className = 'text-brown'>contact<span className = 'text-dark'>me</span></h3>
 			<p className = 'text'>We offer the right Soluutions for your Panama trip.</p>

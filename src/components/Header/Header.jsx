@@ -11,15 +11,16 @@ const Header =() => {
                 <h2 className="text-uppercase text-white op-07 fw-6 ls-2">Amazing Experience</h2>
                 <h1 className="text-white fw-6 header-title">GM Transfer Service <span className='text-brown'> Tours & Transfers </span>Panama</h1>
                  <div className='btn-groups flex '>
-                    <button type= "button" className="btn-item  bg-brown fw-4 ls-2">Tours</button>
-                    <button type ="button" className= "btn-item bg-dark fw-4 ls-2">Contact</button>
+                    <button type= "button"  className="btn-item  bg-brown fw-4 ls-2">Tours</button>
+                    <button type ="button" className= "btn-item bg-dark fw-4 ls-2" >Contact</button>
+        
 
                 </div>
 
             </div>
         </div>
     </div>
+
  )
 }
 export default Header  
-  
