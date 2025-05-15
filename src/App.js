@@ -23,7 +23,7 @@ function App() {
     	<Contact />  
     	<Footer /> 
     <div class= "fixed-bottom right-100 p-3 " style = {{zIndex:"6",left: "initial"}}>
-		<a href="https://wa.me/+50765788940?text=Hello?" target='_blank'>
+		<a href="https://wa.me/+50765788940?text=Hello?"  target='_blank' rel="noreferrer">
 		<img src={whatsappLogo} width ="60" alt="aaa"/>
 
 		</a>
