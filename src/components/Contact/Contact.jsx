@@ -17,6 +17,7 @@ import emailjs from '@emailjs/browser';
 				    .then(
 					    () => {
 						              console.log('SUCCESS!');
+									  form.current.reset(); //lipiamos el formulario
 						            
 					    },
 					    (error) => {
@@ -52,8 +53,8 @@ import emailjs from '@emailjs/browser';
 			     <textarea rows ="2" className = "form-control" placeholder ='Message' name="message" id = "message"/>
 		      </div>	
 			<div className = 'form-element'>
-			<button  type="submit" className ='bg-brown text-white submit-btn fw-3 fs-22'>Send</button>
-			</div>
+			<button  type="submit"   className ='bg-brown text-white submit-btn fw-3 fs-22'>Send</button>
+            </div>
 		    </form>
 		</div>
 	</div>		
