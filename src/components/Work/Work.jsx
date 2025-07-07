@@ -25,7 +25,7 @@ const Work = () => {
 			<div className = 'container'>
 				<div className = 'work-content'>
 					<div className ='section-title'>
-					<h3 className='text-brown'>Top-Rated<span className ='text-dark'>Sites</span></h3>
+					<h3 className='text-brown'>Best Panama<span className ='text-dark'>Tours</span></h3>
 					<p className = 'text'>Enjoy the Best of Panama</p>
 				</div>
 			<div className = 'work-list grid'>

@@ -3,12 +3,12 @@ import images from "./images";
 const services = [
     {
         image: `${images.services_img_1}`,
-        title: "Shuttle",
+        title: "Panama Canal",
         paragraph: "Our shuttle service offers safe and efficient rides to various destinations, ensuring you reach your destination comfortably and on time."
     },
     {
         image: `${images.services_img_2}`,
-        title: "City Tours",
+        title: "Panama City Tours",
         paragraph: "Discover the vibrant essence of our city with an unforgettable guided tour, where history meets modern charm in every corner."
     },
     {
@@ -18,12 +18,12 @@ const services = [
     },
     {
         image: `${images.services_img_4}`,
-        title: "Day Tours",
+        title: "Airport Ride",
         paragraph: " Will be a stunning stretch sand. After some time relaxing by the waves, we’ll head to a local beachside café to enjoy fresh seafood and refreshing drinks."
     },
     {
         image: `${images.services_img_5}`,
-        title: "Birding Tours",
+        title: "Gamboa Trails",
         paragraph: "Discover the beauty of avian life with our bespoke birdwatching tours, crafted specifically for passionate enthusiasts like you."
     },
     {

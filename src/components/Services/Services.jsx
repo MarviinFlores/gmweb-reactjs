@@ -21,7 +21,7 @@ const Services = () => {
 								<img src = {service.image} className ="mx-auto" alt = "" />
 							</div>
 								<div className = 'services-item-text'>
-									<h4 className= 'fs-22 fw-5 op-08'>{service.title}></h4>
+									<h4 className= 'fs-22 fw-5 op-08'>{service.title}</h4>
 									<p className= 'text mx-auto'>{service.paragraph}</p>
 								</div>
 							</div>							

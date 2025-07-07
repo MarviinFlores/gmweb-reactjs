@@ -8,8 +8,8 @@ const Header =() => {
         <Navbar/>
         <div className='container flex'>
             <div className='header-content'>
-                <h2 className="text-uppercase text-white op-07 fw-6 ls-2">Amazing Experience</h2>
-                <h1 className="text-white fw-6 header-title">GM Transfer Service <span className='text-brown'> Tours & Transfers </span>Panama</h1>
+                <h2 className="text-uppercase text-white op-07 fw-6 ls-2">Tours Services</h2>
+                <h1 className="text-white fw-6 header-title">Panama City Tours <span className='text-brown'>  Tours  &  Trails  </span>Panama Tourism </h1>
                  <div className='btn-groups flex '>
                     
                     <a href="#work">

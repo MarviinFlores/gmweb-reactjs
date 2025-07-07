@@ -12,12 +12,12 @@ const  Footer = () => {
 			<div className = 'footer-content'>
 			<ul className = 'footer-social-links flex flex-c '>
 				<li>
-				  <a href = "/" className = 'text-white'>
+				  <a href = "https://facebook.com/gmtransferservice" target ="_blank" rel = "noreferrer" className = 'text-white'>
 					<FaFacebookF />
 				  </a>
 			         </li>
 				<li>
-				  <a href = "/" className = 'text-white'>
+				  <a href = "https://instagram.com/gmtransferservice" target ="_blank" rel = "noreferrer" className = 'text-white'>
 					<FaInstagram />
 				  </a>
 			         </li>
