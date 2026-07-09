@@ -37,7 +37,7 @@ const Navbar =() =>{
 	    			 	 <a href = "#testimonials"  className = 'nav-link text-white ls-1 text-uppercase fw-6 fs-22'>Testimonials</a>
 	    			  </li>
 				  <li className ='nav-item'>
-	    			 	 <a href = "#contact"  className = 'nav-link text-white ls-1 text-uppercase fw-6 fs-22'>Contact</a>
+	    			 	 <a href = "#reservation"  className = 'nav-link text-white ls-1 text-uppercase fw-6 fs-22'>Reservation</a>
 	    		          </li>
 	    			</ul>
 	    		</div>

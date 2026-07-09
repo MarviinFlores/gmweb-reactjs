@@ -17,7 +17,7 @@ const Header =() => {
                     </a>
                     
                     <a href="#contact">
-                    <button type ="button" className= "btn-item bg-dark fw-4 ls-2" >Contact</button>
+                    <button type ="button" className= "btn-item bg-dark fw-4 ls-2" >Reservation</button>
                     </a>
         
 

@@ -7,10 +7,10 @@ import Work from './components/Work/Work.jsx'
 //import  Newsletter from  './components/Newsletter/Newsletter.jsx';
 import About from './components/About/About.jsx';
 import Testimonials from './components/Testimonials/Testimonials.jsx';
-import  Contact from './components/Contact/Contact.jsx'
 import Footer from './components/Footer/Footer.jsx'
 //import whatsappLogo from './assets/images/whatsappLogo.png'
 import Whatsapp from './components/Whatsapp/Whatsapp.jsx';
+import FormsAppPopup from "./components/Reservations/Reservations.jsx";
 
 function App() {
   return (
@@ -21,7 +21,8 @@ function App() {
     	<Work /> 
 	    <About />  
 	    <Testimonials />  
-    	<Contact />  
+     
+      <FormsAppPopup />
     	<Footer />   
 		<Whatsapp/>
 

@@ -1,19 +1,8 @@
-import React, {useRef, useState} from 'react';
 import "./About.css";
 import images from "../../constants/images.js";
 import {about_stats} from "../../constants/data.js";
-import video from "../../assets/videos/video.mp4";
-import {FaPlay} from "react-icons/fa";
 
 const About = () => {
-
-	const vidRef = useRef(null);
-	const [toggleVideo, setToggleVideo] = useState(false);
-	const playVideo = () => {
-		setToggleVideo(!toggleVideo);
-		if (toggleVideo) vidRef.current.play();
-		else vidRef.current.pause();
-		}
 
 	return (
 	<div className = 'about section-p' id="about">
@@ -54,16 +43,7 @@ const About = () => {
 
 		Our team is committed to providing exceptional service, ensuring that every journey with us is safe, comfortable, and enjoyable. Whether you are a tourist exploring the beautiful landscapes of Panama or a local looking for reliable transportation options, GM Transfer Service is here to cater to all your transportation needs.</p>				
 			</div>
-			<div className ='about-video'>
-				<video className = 'about-video' autoPlay loop ref = {vidRef}>
-				<source src = {video} type = "video/mp4"/>
-				</video>
-				<button type = "button" className = 'vidPlayBtn flex flex-c' onClick= {playVideo}>
-				<FaPlay className = 'text-brown' size = {28}/>
-				</button>
-
-			</div>
-		</div>
+	</div>
 	      </div> 		
 
 	</div>
