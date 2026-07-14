@@ -8,9 +8,9 @@ const Services = () => {
 		    <div className='container'>
 			<div className='services-content'>
 			         <div className = 'section-title'>
-			         	<h3 className ='text-brown'>Our<span className ='text-dark'>Services</span></h3>
-			         	<p className ='text'>We offer the best expirence</p>				         
-		         	   </div>
+		         	<h2 className ='text-brown'>Our <span className ='text-dark'>Panama Tour Services</span></h2>
+		         	<h3 className ='text'>We Offer the Best Panama Tour Experience</h3>
+		         </div>
 				
 				<div className = 'services-list grid'>
 					{
@@ -18,7 +18,7 @@ const Services = () => {
 							return (
 							<div className ='services-item text-center' key = {index}>
 							<div className = 'services-item-img'>
-								<img src = {service.image} className ="mx-auto" alt = "" />
+								<img src = {service.image} className ="mx-auto" alt = {service.title} />
 							</div>
 								<div className = 'services-item-text'>
 									<h4 className= 'fs-22 fw-5 op-08'>{service.title}</h4>
