@@ -16,7 +16,18 @@
 }
 .services-item-text .text{
 	max-width : 460px;
+}
 
+.services-item .btn-item {
+	margin-top: 1.6rem;
+	border-color: var(--brown-color);
+	padding: 1rem 2.4rem;
+	font-size: 1.4rem;
+}
+
+.services-item .btn-item:hover {
+	background-color: var(--dark-color);
+	border-color: var(--brown-color);
 }
 
 @media screen and (min-width:768px ){

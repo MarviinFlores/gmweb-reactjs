@@ -23,6 +23,9 @@ const Services = () => {
 								<div className = 'services-item-text'>
 									<h4 className= 'fs-22 fw-5 op-08'>{service.title}</h4>
 									<p className= 'text mx-auto'>{service.paragraph}</p>
+									<a href="#contact">
+										<button type="button" className="btn-item bg-brown fw-4 ls-2">Reserve</button>
+									</a>
 								</div>
 							</div>							
 						)
